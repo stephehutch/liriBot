@@ -20,13 +20,13 @@ also please put spotify keys in a let keys.js file to call the spotify api.
   
   The first argument can be any of the following:
   
-    * movie-this (if you are searching for a movie)
+    movie-this (if you are searching for a movie)
     
-    * concert-this (if you search for a band)
+    concert-this (if you search for a band)
     
-    * spotify-this-song (if you search for a song)
+    spotify-this-song (if you search for a song)
     
-    * do-what-it-says (no second argument)
+    do-what-it-says (no second argument)
 
     
 ## Test cases for liri
@@ -44,7 +44,7 @@ ciri stands for Console Interpretation and Recognition Interface
 
 additional required packages: 
 
-  var inquirer = require("inquirer");
+    var inquirer = require("inquirer");
 
 ciri.js will prompt the user in the console with four search options: a song, a movie, a band, or "I'm not sure." 
 
